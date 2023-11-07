@@ -133,7 +133,7 @@ main();
 ```
 
 Streaming with `openai.beta.chat.completions.stream({…})` exposes
-[various helpers for your convenience](helpers.md#events) including event handlers and promises.
+[various helpers for your convenience](helpers.md#events), including event handlers and promises.
 
 Alternatively, you can use `openai.chat.completions.create({ stream: true, … })`
 which only returns an async iterable of the chunks in the stream and thus uses less memory
